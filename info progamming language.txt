@@ -1,0 +1,82 @@
+Statement = perintah yang diberikan kepada komputer tapi sudah dalam synntac bahasa tertentu
+
+IDE = semacam code editor tapi memiliki fitur yang lebig lengkap lagi
+
+ 
+
+menggunakan Compiler == source code tidak akan ditampilkan pada si pengguna aplikasi
+menggunakan Interpreter == si pengguna harus mempunyai sebuah Interpreter untuk menerjemahkan progam dari pemrogram
+ada juga Hybrid == source code yang di kirimkan berupa INTERMEDIATE LANGUAGE / BYTE CODE
+
+
+
+COMPILER = C , C++, OBJECTIVE-C
+INTERPRETER = JAVASCRIPT, PHP
+HYBRID = JAVA, VB.NET, PHYTON
+
+
+
+JAVASCRIPT = spesifik untuk web
+
+
+bit / binary-digit == atuan terkecil dari data yang ada di dalam komputer kita nilai hanya 0 dan 1 ;
+digit 1 terjadi ketika transistor di aliri listrik dan sebaliknya
+
+-- di dalam javascript tidak ada integer .. yang ada hanyalah floating point
+ukuran angka yang bisa disimpan di dalam javascript 64-bit atau 2^64 / 8 x 1000 000 000 000 000 000
+
+- meskipun yang kita kiriman adlaah bilangan bulat tapi yang dikirimkian adalah bilangan pecahan
+-- koma di JS digantikNan dengan titik
+
+-- hati2 ketika menjumlahkan pecahan
+
+-- jangan menuliskan angka 0 sebelum anggka berikutnya karena karena akan dianggap sebagai oktal
+
+-- ketika melakukan operasi bilangan dngan string maka string akan tetap dianggap angka oleh javascript
+
+
+-- Operator BINARY == yang membutuhkan dua Operand
+-- Operator Unary == Hanya membutuhkan 1 Operand
+-- Operator Ternary == yang membutuhkan 3 operand
+
+=== KuKaBaTaKu  == Operator predence
+
+--- = Operator penugasan (x=10)  menugaskan x untuk menampung nilai 10
+
+== menghasilkan nilai bolean
+
+
+
+==== Fungsi STRING = untuk merepresentasikan data tekstual / plain textm 
+
+
+("jum\'at") \ == escape character
+ 
++ pada string bisa berarti concatenation / konkatenasi
+
+.length == 
+
+
+==== UNDEFINED == type yang dihasilkan ketika kita mendeklarasikan sebuah variable api kita belum mengisinya;
+==== NULL = nilai kosong
+
+== Variable == sebuah tempat atau wadah yang memiliki nama yang digunakan untuk menyimpan nilai
+
+
+
+
+Deklarasi == Mendaftarkan variable ke dlam lingkup yang sesuai
+Inisialisasi == menyediakan memory untuk variable
+Assignmnt == Menetapkan nilai spesifik ke dalam variable
+
+var x; // deklarasi sekaligus Inisialisasi 
+x = 10 ;// penugasan / assignment
+
+var naamVariabelPanjang ; /// Camel-Case
+
+var nama = "Afaf",
+    umur = 19,
+    lulus = true; /// shorthand
+
+
+Program consisting of more than a Statemen will be run from up to down
