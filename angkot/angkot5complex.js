@@ -37,3 +37,36 @@ var tambahPenumpang = function(namaPenumpang, penumpang){
             }
         }
 }
+
+
+var hapusPenumpang = function(namaPenumpang, penumpang){
+    // jika angkot masih kosong
+    if(penumpang.length==0){
+        // tmapilkan pesan angkot kosong, dan
+        console.log('Angkot Masih kosong');
+        // kembalikan isi array dan keluar function
+    }
+    // tidak mungkin ada penumpang turun
+    // else
+    else{
+        // telusuri seluruh kursi dari awal
+        for(var i = 0 ; i < penumpang.length; i++){
+            // jika nama penumpang sesuai hapus penumpang dengan mengubah namanya menjadi undefined
+            if(penumpang[i] == namaPenumpang){
+                penumpang[i] == undefined;
+                // kembalikan isi array dan keluar function
+                return penumpang;
+            }else if(i == penumpang.length - 1){
+                console.log(namaPenumpang + ' tidak ada didalam angkot!');
+                return penumpang;
+            }
+        }
+    }
+    
+        
+    return penumpang;
+    
+    // jika tidak ada nama yang sesuai
+    // tampilkan pesan kesalahannya
+            // kembalikan isi array & keluar dari function
+}
